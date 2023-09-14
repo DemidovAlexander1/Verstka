@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header{
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__item a{
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__item{
+ margin-left: 170px;  
+ display: flex;
+}
+
+.header__item_g{
+    color: #FFFFFF;
+    background-color: #01996D;
+    padding: 13px 50px 13px 50px;
+    border-radius: 4px;
+}
+.header__item_g a{
+    color: #FFFFFF;
+}
+
+.intro{
+    background: url(../img/WOMAN.svg);
+    padding: 425px 0;
+}
